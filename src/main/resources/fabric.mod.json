@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "ep-addon",
+	"version": "1.0.0",
+	"name": "Extra Pieces Addon",
+	"description": "Adds more piece types to Extra Pieces!",
+	"authors": [
+		"Shnupbups"
+	],
+	"license": "LGPLv3",
+	"environment": "*",
+	"entrypoints": {
+		"extrapieces": [
+			"com.shnupbups.epaddon.EPAddon"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.4.0",
+		"fabric": "*",
+		"extrapieces": ">=2.5.2"
+	},
+	"custom": { "extrapieces:piecepack": "epaddon.json" }
+}

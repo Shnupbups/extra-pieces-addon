@@ -1,0 +1,27 @@
+{
+	"itemGroup.epaddon.button": "EP Addon: Buttons",
+	"itemGroup.epaddon.pressure_plate": "EP Addon: Pressure Plates",
+	"itemGroup.epaddon.infested": "EP Addon: Infested Blocks",
+
+	"piece.epaddon.button": "%s Button",
+	"piece.epaddon.pressure_plate": "%s Pressure Plate",
+	"piece.epaddon.infested": "Infested %s",
+
+	"tooltip.activationLength": "Activation Length: %s ticks",
+	"tooltip.activationType": "Activation Type: %s",
+
+	"activationType.heavy_weighted": "Heavy Weighted",
+	"activationType.light_weighted": "Light Weighted",
+	"activationType.medium_weighted": "Medium Weighted",
+	"activationType.very_light_weighted": "Very Light Weighted",
+	"activationType.very_heavy_weighted": "Very Heavy Weighted",
+	"activationType.all_entities": "Everything",
+	"activationType.only_players": "Only Players",
+	"activationType.only_hostile": "Only Hostile Mobs",
+	"activationType.only_living": "Only Living Creatures",
+	"activationType.only_passive": "Only Passive Creatures",
+	"activationType.only_animals": "Only Animals",
+	"activationType.only_adults": "Only Adults",
+	"activationType.not_players": "Not Players",
+	"activationType.only_items": "Only Items"
+}

@@ -115,8 +115,8 @@ public class PressurePlatePieceBlock extends PressurePlateBlock implements Piece
 				l = world_1.getEntities((Entity) null, box_1);
 				list_3 = l;
 				for (Object o : l) {
-					if (o instanceof PassiveEntity && ((PassiveEntity) l).isBaby()) list_3.remove(o);
-					else if (o instanceof ZombieEntity && ((ZombieEntity) l).isBaby()) list_3.remove(o);
+					if (o instanceof PassiveEntity && ((PassiveEntity) o).isBaby()) list_3.remove(o);
+					else if (o instanceof ZombieEntity && ((ZombieEntity) o).isBaby()) list_3.remove(o);
 				}
 				break;
 			case HEAVY_WEIGHTED:

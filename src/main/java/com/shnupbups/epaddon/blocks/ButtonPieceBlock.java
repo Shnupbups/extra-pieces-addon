@@ -26,7 +26,7 @@ public class ButtonPieceBlock extends AbstractButtonBlock implements PieceBlock 
 		else if (material.equals(Material.ORGANIC)) return 35;
 		else if (material.equals(Material.EARTH)) return 25;
 		else if (material.equals(Material.GLASS)) return 15;
-		else if (material.equals(Material.PACKED_ICE)) return 45;
+		else if (material.equals(Material.PACKED_ICE) || material.equals(Material.CLAY)) return 45;
 		else return 20;
 	}
 

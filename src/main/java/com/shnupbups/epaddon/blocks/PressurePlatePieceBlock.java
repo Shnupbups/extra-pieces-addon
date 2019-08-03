@@ -190,7 +190,7 @@ public class PressurePlatePieceBlock extends PressurePlateBlock implements Piece
 			else if (this.hardness >= 3) return ActivationType.LIGHT_WEIGHTED;
 			return ActivationType.VERY_LIGHT_WEIGHTED;
 		} else if (this.material.equals(Material.EARTH)) return ActivationType.ONLY_ANIMALS;
-		else if (this.material.equals(Material.PACKED_ICE)) return ActivationType.NOT_PLAYERS;
+		else if (this.material.equals(Material.PACKED_ICE) || this.material.equals(Material.CLAY)) return ActivationType.NOT_PLAYERS;
 		else if (this.material.equals(Material.ORGANIC)) return ActivationType.ONLY_ADULTS;
 		else return ActivationType.ALL_ENTITIES;
 	}

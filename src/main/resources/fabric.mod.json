@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "ep-addon",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"name": "Extra Pieces Addon",
 	"description": "Adds more piece types to Extra Pieces!",
 	"authors": [
@@ -15,9 +15,9 @@
 		]
 	},
 	"depends": {
-		"fabricloader": ">=0.4.0",
+		"fabricloader": ">=0.6.1",
 		"fabric": "*",
-		"extrapieces": ">=2.5.2"
+		"extrapieces": ">=2.8.0"
 	},
 	"custom": { "extrapieces:piecepack": "epaddon.json" }
 }

@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '0.2.4-SNAPSHOT'
+	id 'fabric-loom' version '0.2.5-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -36,8 +36,8 @@ dependencies {
 	modImplementation "extra-pieces:extrapieces:${project.extra_pieces_version}"
 	
 	// stuff for dev env
-	modCompile "io.github.prospector.modmenu:ModMenu:${project.modmenu_version}"
-	modCompile "me.shedaniel:RoughlyEnoughItems:${project.rei_version}"
+	modImplementation "io.github.prospector:modmenu:${project.modmenu_version}"
+    modImplementation ("me.shedaniel:RoughlyEnoughItems:${project.rei_version}") { exclude(module: 'ModMenu') }
 }
 
 processResources {

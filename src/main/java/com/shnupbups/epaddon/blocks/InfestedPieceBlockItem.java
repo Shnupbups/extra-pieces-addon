@@ -17,6 +17,6 @@ public class InfestedPieceBlockItem extends PieceBlockItem {
 	@Override
 	@Environment(EnvType.CLIENT)
 	public Text getName(ItemStack stack) {
-		return (Text)(Language.getInstance().hasTranslation(this.getTranslationKey(stack)) ? super.getName(stack) : new TranslatableText(this.getPieceBlock().getType().getTranslationKey(), new Object[]{new TranslatableText(this.getPieceBlock().getSet().getBase().getTranslationKey(), new Object[0])}));
+		return Language.getInstance().hasTranslation(this.getTranslationKey(stack)) ? super.getName(stack) : new TranslatableText(this.getPieceBlock().getType().getTranslationKey(), new TranslatableText(this.getPieceBlock().getSet().getBase().getTranslationKey()));
 	}
 }

@@ -44,4 +44,9 @@ public class PressurePlatePiece extends PieceType {
 	public PieceBlockItem getBlockItem(PieceBlock pb) {
 		return new PressurePlatePieceBlockItem(pb, new Item.Settings());
 	}
+	
+	@Override
+	public int getStonecuttingCount() {
+		return 8;
+	}
 }

@@ -133,4 +133,9 @@ public class ButtonPiece extends PieceType {
 	public PieceBlockItem getBlockItem(PieceBlock pb) {
 		return new ButtonPieceBlockItem(pb, new Item.Settings());
 	}
+	
+	@Override
+	public int getStonecuttingCount() {
+		return 8;
+	}
 }

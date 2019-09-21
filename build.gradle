@@ -15,7 +15,7 @@ minecraft {
 
 repositories {
 	maven { url "https://minecraft.curseforge.com/api/maven"}
-	maven { url "https://jitpack.io" }
+	maven { url "https://maven.swordglowsblue.com" }
 	maven { url "http://server.bbkr.space:8081/artifactory/libs-release/" }
 	maven { url "https://minecraft.curseforge.com/api/maven" }
 }
@@ -30,7 +30,7 @@ dependencies {
 	modCompile "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	// Artifice
-	modImplementation "com.github.swordglowsblue:artifice:${project.artifice_version}"
+	modImplementation "artificemc:artifice:${project.artifice_version}"
 	
 	// Extra Pieces
 	modImplementation "extra-pieces:extrapieces:${project.extra_pieces_version}"

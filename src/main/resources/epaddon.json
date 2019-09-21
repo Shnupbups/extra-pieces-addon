@@ -1,5 +1,5 @@
 {
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"vanilla_pieces": {
 		"oak_button": {
 			"base": "minecraft:oak_planks",
@@ -114,132 +114,158 @@
 		"infested_mossy_cobblestone": {
 			"base": "minecraft:mossy_cobblestone",
 			"type": "epaddon:infested",
-			"piece": "infested:infested_mossy_cobblestone"
+			"piece": "infested:infested_mossy_cobblestone",
+		  	"required_mod": "infested"
 		},
 		"infested_bookshelf": {
 			"base": "minecraft:bookshelf",
 			"type": "epaddon:infested",
-			"piece": "infested:infested_bookshelf"
+			"piece": "infested:infested_bookshelf",
+		  	"required_mod": "infested"
 		},
 		"redwood_pressure_plate": {
 			"base": "terrestria:redwood_planks",
 			"type": "epaddon:pressure_plate",
-			"piece": "terrestria:redwood_pressure_plate"
+			"piece": "terrestria:redwood_pressure_plate",
+		  	"required_mod": "terrestria"
 		},
 		"redwood_button": {
 			"base": "terrestria:redwood_planks",
 			"type": "epaddon:button",
-			"piece": "terrestria:redwood_button"
+			"piece": "terrestria:redwood_button",
+		  	"required_mod": "terrestria"
 		},
 		"hemlock_pressure_plate": {
 			"base": "terrestria:hemlock_planks",
 			"type": "epaddon:pressure_plate",
-			"piece": "terrestria:hemlock_pressure_plate"
+			"piece": "terrestria:hemlock_pressure_plate",
+		  	"required_mod": "terrestria"
 		},
 		"hemlock_button": {
 			"base": "terrestria:hemlock_planks",
 			"type": "epaddon:button",
-			"piece": "terrestria:hemlock_button"
+			"piece": "terrestria:hemlock_button",
+		  	"required_mod": "terrestria"
 		},
 		"rubber_pressure_plate": {
 			"base": "terrestria:rubber_planks",
 			"type": "epaddon:pressure_plate",
-			"piece": "terrestria:rubber_pressure_plate"
+			"piece": "terrestria:rubber_pressure_plate",
+			"required_mod": "terrestria"
 		},
 		"rubber_button": {
 			"base": "terrestria:rubber_planks",
 			"type": "epaddon:button",
-			"piece": "terrestria:rubber_button"
+			"piece": "terrestria:rubber_button",
+			"required_mod": "terrestria"
 		},
 		"cypress_pressure_plate": {
 			"base": "terrestria:cypress_planks",
 			"type": "epaddon:pressure_plate",
-			"piece": "terrestria:cypress_pressure_plate"
+			"piece": "terrestria:cypress_pressure_plate",
+			"required_mod": "terrestria"
 		},
 		"cypress_button": {
 			"base": "terrestria:cypress_planks",
 			"type": "epaddon:button",
-			"piece": "terrestria:cypress_button"
+			"piece": "terrestria:cypress_button",
+			"required_mod": "terrestria"
 		},
 		"willow_pressure_plate": {
 			"base": "terrestria:willow_planks",
 			"type": "epaddon:pressure_plate",
-			"piece": "terrestria:willow_pressure_plate"
+			"piece": "terrestria:willow_pressure_plate",
+			"required_mod": "terrestria"
 		},
 		"willow_button": {
 			"base": "terrestria:willow_planks",
 			"type": "epaddon:button",
-			"piece": "terrestria:willow_button"
+			"piece": "terrestria:willow_button",
+			"required_mod": "terrestria"
 		},
 		"japanese_maple_pressure_plate": {
 			"base": "terrestria:japanese_maple_planks",
 			"type": "epaddon:pressure_plate",
-			"piece": "terrestria:japanese_maple_pressure_plate"
+			"piece": "terrestria:japanese_maple_pressure_plate",
+			"required_mod": "terrestria"
 		},
 		"japanese_maple_button": {
 			"base": "terrestria:japanese_maple_planks",
 			"type": "epaddon:button",
-			"piece": "terrestria:japanese_maple_button"
+			"piece": "terrestria:japanese_maple_button",
+			"required_mod": "terrestria"
 		},
 		"rainbow_eucalyptus_pressure_plate": {
 			"base": "terrestria:rainbow_eucalyptus_planks",
 			"type": "epaddon:pressure_plate",
-			"piece": "terrestria:rainbow_eucalyptus_pressure_plate"
+			"piece": "terrestria:rainbow_eucalyptus_pressure_plate",
+			"required_mod": "terrestria"
 		},
 		"rainbow_eucalyptus_button": {
 			"base": "terrestria:rainbow_eucalyptus_planks",
 			"type": "epaddon:button",
-			"piece": "terrestria:rainbow_eucalyptus_button"
+			"piece": "terrestria:rainbow_eucalyptus_button",
+			"required_mod": "terrestria"
 		},
 		"sakura_pressure_plate": {
 			"base": "terrestria:sakura_planks",
 			"type": "epaddon:pressure_plate",
-			"piece": "terrestria:sakura_pressure_plate"
+			"piece": "terrestria:sakura_pressure_plate",
+			"required_mod": "terrestria"
 		},
 		"sakura_button": {
 			"base": "terrestria:sakura_planks",
 			"type": "epaddon:button",
-			"piece": "terrestria:sakura_button"
+			"piece": "terrestria:sakura_button",
+			"required_mod": "terrestria"
 		},
 		"fir_pressure_plate": {
 			"base": "traverse:fir_planks",
 			"type": "epaddon:pressure_plate",
-			"piece": "traverse:fir_pressure_plate"
+			"piece": "traverse:fir_pressure_plate",
+			"required_mod": "traverse"
 		},
 		"fir_button": {
 			"base": "traverse:fir_planks",
 			"type": "epaddon:button",
-			"piece": "traverse:fir_button"
+			"piece": "traverse:fir_button",
+			"required_mod": "traverse"
 		},
 		"obsidian_pressure_plate": {
 			"base": "minecraft:obsidian",
 			"type": "epaddon:pressure_plate",
-			"piece": "extra-pressure-plates:obsidian_pressure_plate"
+			"piece": "extra-pressure-plates:obsidian_pressure_plate",
+			"required_mod": "extra-pressure-plates"
 		},
 		"fiery_pressure_plate": {
 			"base": "minecraft:magma_block",
 			"type": "epaddon:pressure_plate",
-			"piece": "extra-pressure-plates:fiery_pressure_plate"
+			"piece": "extra-pressure-plates:fiery_pressure_plate",
+			"required_mod": "extra-pressure-plates"
 		},
 		"slime_pressure_plate": {
 			"base": "minecraft:slime_block",
 			"type": "epaddon:pressure_plate",
-			"piece": "extra-pressure-plates:slime_pressure_plate"
+			"piece": "extra-pressure-plates:slime_pressure_plate",
+			"required_mod": "extra-pressure-plates"
 		},
 		"glass_pressure_plate": {
 			"base": "minecraft:glass",
 			"type": "epaddon:pressure_plate",
-			"piece": "extra-pressure-plates:glass_pressure_plate"
+			"piece": "extra-pressure-plates:glass_pressure_plate",
+			"required_mod": "extra-pressure-plates"
 		},
 		"ocean_pressure_plate": {
 			"base": "minecraft:sea_lantern",
 			"type": "epaddon:pressure_plate",
-			"piece": "extra-pressure-plates:ocean_pressure_plate"
+			"piece": "extra-pressure-plates:ocean_pressure_plate",
+			"required_mod": "extra-pressure-plates"
 		},
 		"cactus_pressure_plate": {
 			"base": "minecraft:cactus",
 			"type": "epaddon:pressure_plate",
-			"piece": "extra-pressure-plates:cactus_pressure_plate"
+			"piece": "extra-pressure-plates:cactus_pressure_plate",
+			"required_mod": "extra-pressure-plates"
 		}
 	}
 }
